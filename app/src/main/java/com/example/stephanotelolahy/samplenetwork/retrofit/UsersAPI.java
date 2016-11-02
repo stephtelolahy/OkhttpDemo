@@ -1,0 +1,20 @@
+package com.example.stephanotelolahy.samplenetwork.retrofit;
+
+import retrofit2.http.FormUrlEncoded;
+import retrofit2.http.GET;
+import retrofit2.http.Headers;
+import retrofit2.http.Query;
+import retrofit2.Call;
+
+
+/**
+ * Created by stephanotelolahy on 02/11/2016.
+ */
+
+public interface UsersAPI {
+
+    @Headers({"Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXUyJ9.eyJleHAiOjE0ODUxNjUzNjEsInVzZXJuYW1lIjoic3RlcGhhbm8udGVsb2xhaHlAYnVzaW5lc3NkZWNpc2lvbi5jb20iLCJpYXQiOiIxNDc3Mzg5MzYxIn0.C4ae3kvCikmYaddDHHejTYNIqrWLBRxGMnBg_UR0pIv_-xHlh-UUUQ16tOzCO54Zh-Lt_iH1Rcv6bM28wyU70L5VQ9F-CBB6Vk1lyvU7mGozojCisAxB_RPs8rAJGAi49f3XpRQXxuBTtQCz3mBoAYwSKDaqiRM566NJLU8hKTKcwaJAs8DxuPdwQHz9n6SQp6WEjq61Fclp9hmr1A5ExNAVAqj1llv5CZOEboichY5NCgQIVC5ZXKL0lh8Y8zZw0-V_3xXbUbfB_c6aDT2kw1i1RJ6kCKlTtS0OI-GVv4dhHUxAD6pI52VAb0gmeNSsXMAVG30NJbuRytqxIraiIhLIfTcbmnjsbG1RARg3zHdum91qwq7boujQZDtSvQsZH0Cu0V7eq6eQi29M0llkrSQLvSVk8vvorrwfG5SjsEUwHgQzYky40FI83LGxq5ug1AOdfQYGrax8_I38w3H2N1flC8AZMBp68EMb-BId7jNWluTX8goV7SxOgjMmTGgZvXU2IliuWEABQtxj7x8QJVRuo0nFZOQkfSbhbyKiYSWCSxxn-TuXMWTrjbMv6mhjJZ44pcDA1ki56wPj34GIOeUOAErjNE_jYNv48Nda0XkgG0rhHzLvMLOxPcUJyUPpuN1sGUb7lZ3FaFAFK69G93uK-gVzbx_5eM5lcjjkkV8",
+    "content:celine"})
+    @GET("user/search")
+    Call<Users> loadUsers();
+}

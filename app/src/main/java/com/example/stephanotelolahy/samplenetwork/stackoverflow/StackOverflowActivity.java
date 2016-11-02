@@ -1,19 +1,16 @@
-package com.example.stephanotelolahy.samplenetwork.retrofit;
+package com.example.stephanotelolahy.samplenetwork.stackoverflow;
 
 import android.app.ListActivity;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
-import android.view.Window;
 import android.widget.ArrayAdapter;
 import android.widget.Toast;
 
 import com.example.stephanotelolahy.samplenetwork.R;
 
 import java.util.ArrayList;
-import java.util.List;
 
 import retrofit2.Call;
 import retrofit2.Callback;

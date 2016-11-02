@@ -1,4 +1,4 @@
-package com.example.stephanotelolahy.samplenetwork.retrofit;
+package com.example.stephanotelolahy.samplenetwork.stackoverflow;
 
 import retrofit2.http.GET;
 import retrofit2.http.Query;

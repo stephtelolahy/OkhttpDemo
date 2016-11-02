@@ -3,7 +3,7 @@ package com.example.stephanotelolahy.samplenetwork.retrofit;
 /**
  * Created by stephanotelolahy on 02/11/2016.
  */
-public class Question {
+public class User {
 
     // ===========================================================
     // Constants
@@ -13,8 +13,8 @@ public class Question {
     // Fields
     // ===========================================================
 
-    public String title;
-    public String link;
+    public String firstname;
+    public String lastname;
 
     // ===========================================================
     // Constructors
@@ -34,7 +34,7 @@ public class Question {
 
     @Override
     public String toString() {
-        return(title);
+        return (firstname + " " + lastname);
     }
 
     // ===========================================================

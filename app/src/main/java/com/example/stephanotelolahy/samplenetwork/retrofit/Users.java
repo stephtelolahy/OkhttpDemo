@@ -1,11 +1,14 @@
 package com.example.stephanotelolahy.samplenetwork.retrofit;
 
+import com.example.stephanotelolahy.samplenetwork.stackoverflow.Question;
+
+import java.util.ArrayList;
 import java.util.List;
 
 /**
  * Created by stephanotelolahy on 02/11/2016.
  */
-public class StackOverflowQuestions {
+public class Users {
 
     // ===========================================================
     // Constants
@@ -15,7 +18,11 @@ public class StackOverflowQuestions {
     // Fields
     // ===========================================================
 
-    public List<Question> items;
+    public ArrayList<User> data;
+
+    public int totalItems;
+    public int itemsPerPage;
+    public int totalPages;
 
     // ===========================================================
     // Constructors
